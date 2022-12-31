@@ -328,7 +328,7 @@ main{
     padding-right: 10%;
 }
 
-.my-account{
+.my-account, .other-accounts{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -340,8 +340,9 @@ main{
     width: 56px;
 }
 
-.account-info{
-    margin-left: -90px;
+.account-info1{
+   position: absolute;
+   margin-left: 70px;
 }
 
 .username{
@@ -350,12 +351,12 @@ main{
     font-size: 14px;
 }
 
-.real-name{
+.real-name, .follows-you{
     color: #989898;
     font-size: 14px;
 }
 
-.switch{
+.switch, .follow{
     color: #15a0ee;
     font-size: 12px;
     font-weight: bold;
@@ -363,6 +364,56 @@ main{
 
 .switch:hover{
     color: black;
+}
+
+.follow:hover{
+    color: #0774b3;
+}
+
+.suggestions-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.suggestions-div{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.suggestions{
+    color: #8e8e8e;
+    font-size: 14px;
+}
+
+.see-all{
+    font-size: 12px;
+}
+
+.see-all:hover{
+    color: #8e8e8e;
+}
+
+.account-info2{
+    position: absolute;
+    margin-left: 50px;
+ }
+
+.other-accounts{
+    margin-bottom: 10px;
+}
+
+.follows-you{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.picture{
+    border-radius: 50%;
+    width: 36px;
 }
 
 @media(max-width:1300px){
