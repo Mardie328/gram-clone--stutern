@@ -171,6 +171,7 @@ main{
 }
 
 .poster-name{
+    color: black;
     font-size: 14px;
     font-weight: 500;
 }
@@ -182,6 +183,7 @@ main{
 #three-dots-icon{
    font-size: 17px;
    margin-right: 10px;
+   color: black;
 }
 
 #three-dots-icon:hover{
@@ -210,6 +212,7 @@ main{
 
 .send-message, .plane-icon{
     margin-right: 13px;
+    color: black;
 }
 
 .send-message:hover, .plane-icon:hover{
@@ -219,6 +222,7 @@ main{
 
 .tag-icon{
    margin-left: 300px;
+   color: black;
 }
 
 .tag-icon:hover{
