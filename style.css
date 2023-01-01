@@ -60,7 +60,8 @@ main{
 }
 
 .active{
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .side-container{
@@ -414,6 +415,33 @@ main{
 .picture{
     border-radius: 50%;
     width: 36px;
+}
+
+.footer-container{
+    margin-left: -10px;
+}
+
+.links-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link, .dot-div{
+    font-size: 12px;
+    font-weight: 400;
+    color: #c7c7c7;
+    margin-right: 3px;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    font-size: 12px;
+    font-weight: 400;
+    color: #c7c7c7;
+    margin-top: 15px;
 }
 
 @media(max-width:1300px){
